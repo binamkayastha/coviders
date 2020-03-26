@@ -1,2 +1,0 @@
-# coviders
-Created with CodeSandbox

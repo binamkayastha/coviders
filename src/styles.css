@@ -1,0 +1,26 @@
+html,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1,
+h2 {
+  /* font-family: "Source Code Pro", monospace; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: lightgreen;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
