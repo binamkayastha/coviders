@@ -8,7 +8,7 @@ import { CodeOfConduct } from "./pages/CodeOfConduct";
 export default function App() {
   return (
     <div className="App">
-      <Background />{" "}
+      <Background />
       <div style={{ position: "absolute", width: "100vw" }}>
         <Router>
           <Switch>
