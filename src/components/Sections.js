@@ -1,5 +1,4 @@
 import React from "react";
-import { Trail, animated } from "react-spring/renderprops";
 import { Button } from "./Button";
 
 export const Sections = ({ sections: items, visible = true }) => {
