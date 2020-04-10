@@ -1,22 +1,25 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles.css";
 import { Background } from "./sections/Background";
-import { Intro } from "./sections/Intro";
-import { Tracks } from "./sections/Tracks";
-import { Join } from "./sections/Join";
-import { Timeline } from "./sections/Timeline";
-import { Sponsors } from "./sections/Sponsors";
+import { Home } from "./pages/Home";
+import { CodeOfConduct } from "./pages/CodeOfConduct";
 
 export default function App() {
   return (
     <div className="App">
-      <Background />
+      <Background />{" "}
       <div style={{ position: "absolute", width: "100vw" }}>
-        <Intro />
-        <Tracks />
-        <Join />
-        <Timeline />
-        <Sponsors />
+        <Router>
+          <Switch>
+            <Route path="/code-of-conduct">
+              <CodeOfConduct />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     </div>
   );

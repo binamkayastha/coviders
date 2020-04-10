@@ -32,7 +32,7 @@ export const Intro = () => {
           }}
         >
           We are actively looking for volunteers and organizers!{" "}
-          <a href="#join">Join now</a>
+          <a href="https://forms.gle/Vp3wuniFCsdyawxJ9">Join now</a>
         </div>
         <Logo />
       </header>
@@ -41,16 +41,17 @@ export const Intro = () => {
         details="Coviders is an online hackathon for software coders to build meaningful software and make a positive impact in the world of COVID19"
         subsections={[
           {
-            title: "April 24-26",
+            title: "May 29-31",
             text:
-              "Join us for an online hackathon on the weekend of April 24th. We will have workshops over the weeks leading up to the hackathon for those that are starting the project early!"
+              "Join us for an online hackathon on the weekend of May 29. We will have workshops over the weeks leading up to the hackathon for those that are starting the project early!"
           },
           {
             title: "World Wide Web",
             text: "Everyone is welcome to join! coviders.slack.com",
             link: {
               text: "Join Slack",
-              link: "coviders.slack.com"
+              href:
+                "https://join.slack.com/t/coviders/shared_invite/zt-d72l3qmt-jIrJaiw3zVWeohZHcmy4jQ"
             }
           }
         ]}

@@ -9,6 +9,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-particles-js": "2.7.1",
+    "react-router-dom": "5.1.2",
     "react-scripts": "3.4.1",
     "react-spring": "8.0.27"
   },
@@ -21,6 +22,11 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "homepage": "http://nepalcodes.github.io/coviders"
 }
