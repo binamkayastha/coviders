@@ -1,23 +1,14 @@
-# Coviders Hackathon Website
+This is based on these instructions to setup django
+https://docs.docker.com/compose/django/
 
-[![Codesandbox](https://img.shields.io/badge/codesandbox-run-brightgreen?style=for-the-badge&logo=codesandbox)](https://codesandbox.io/s/github/nepalcodes/coviders)
+To start the webapp and the database
 
-Hi there! Welcome to the Coviders Hackathon Website!
+  `docker-compose up`
 
-## Contributing
+To stop it, ctrl+c, or:
 
-Contributions are welcome!
-
-### Contributing with Code Sandbox
-
-You can see this project on codesandbox [here](https://codesandbox.io/s/github/nepalcodes/coviders).
-
-Fork it and create a pull request directly from codesandbox.
-
-### Contributing with local dev
-
-If you are developing this locally:
-
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
+  Use docker ps to get container id
+  `docker ps`
+  `docker stop <container_id>`
+  To restart it
+  `docker start <container_id>`
