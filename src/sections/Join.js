@@ -20,7 +20,7 @@ export const Join = ({ offset, scroll }) => {
           text: "We are looking for volunteers to help out on the day of the hackathon and for outreach!",
           link: {
             text: "Sign Up",
-            href: "https://forms.gle/Vp3wuniFCsdyawxJ9"
+            href: "https://forms.gle/u2xNAMn2Cx2sf37h7"
           }
         },
         {
